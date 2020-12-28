@@ -18,7 +18,7 @@ function criarCobrinha()
 {
     for(i = 0; i < snake.length; i++)
     {
-        context.fillStyle = "black";
+        context.fillStyle =  "rgb(0, 122, 0)";
         context.fillRect(snake[i].x, snake[i].y, box, box);
     }
 }
