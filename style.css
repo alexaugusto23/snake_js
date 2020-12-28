@@ -9,3 +9,39 @@ canvas
     width: 512px; 
     height: 512px;
 }
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    color: rgb(0, 122, 0);
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 41%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
+.container img
+{
+    margin-right: 2%;
+}
+
+.container h1
+{
+    text-align: center;
+}
+
