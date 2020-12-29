@@ -13,6 +13,8 @@ body{
     align-items: center;
     background-color:white;
     color: rgb(0, 122, 0);
+    padding: 5% ;
+    background-color: rgb(175, 255, 122);
 }
 
 .container
@@ -22,9 +24,10 @@ body{
     align-items: center;
     justify-content: center;
     width: 41%;
-    border: 1px solid black;
+    border: 2px solid rgb(141, 0, 0);
     border-radius: 5px;
     margin-bottom: 5px;
+    padding: 10px 0px 10px 0px;
 }
 
 
@@ -36,5 +39,34 @@ body{
 .container h1
 {
     text-align: center;
+}
+
+
+.botoes
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    
+}
+
+button
+{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid;
+    color: darkgreen;
+    margin: 1% ;
+    padding: 5px;
+    width: 200px;
+    outline: 0;
+}
+
+button:hover
+{
+    background-color: darkgreen;
+    color: aliceblue;
+    border-color: darkgreen;
 }
 
